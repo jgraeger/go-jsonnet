@@ -17,9 +17,9 @@ limitations under the License.
 package formatter
 
 import (
-	"github.com/google/go-jsonnet/ast"
-	"github.com/google/go-jsonnet/internal/parser"
-	"github.com/google/go-jsonnet/internal/pass"
+	"github.com/jgraeger/go-jsonnet/ast"
+	"github.com/jgraeger/go-jsonnet/internal/parser"
+	"github.com/jgraeger/go-jsonnet/internal/pass"
 )
 
 // EnforceStringStyle is a formatter pass that manages string literals

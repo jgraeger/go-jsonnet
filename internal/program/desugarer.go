@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/google/go-jsonnet/ast"
-	"github.com/google/go-jsonnet/internal/errors"
-	"github.com/google/go-jsonnet/internal/parser"
+	"github.com/jgraeger/go-jsonnet/ast"
+	"github.com/jgraeger/go-jsonnet/internal/errors"
+	"github.com/jgraeger/go-jsonnet/internal/parser"
 )
 
 var desugaredBop = map[ast.BinaryOp]ast.Identifier{

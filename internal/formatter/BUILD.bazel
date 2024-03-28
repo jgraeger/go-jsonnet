@@ -19,7 +19,7 @@ go_library(
         "strip.go",
         "unparser.go",
     ],
-    importpath = "github.com/google/go-jsonnet/internal/formatter",
+    importpath = "github.com/jgraeger/go-jsonnet/internal/formatter",
     visibility = ["//visibility:public"],
     deps = [
         "//ast:go_default_library",

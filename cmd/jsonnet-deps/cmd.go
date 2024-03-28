@@ -25,8 +25,8 @@ import (
 
 	"github.com/fatih/color"
 
-	"github.com/google/go-jsonnet"
-	"github.com/google/go-jsonnet/cmd/internal/cmd"
+	"github.com/jgraeger/go-jsonnet"
+	"github.com/jgraeger/go-jsonnet/cmd/internal/cmd"
 )
 
 func version(o io.Writer) {

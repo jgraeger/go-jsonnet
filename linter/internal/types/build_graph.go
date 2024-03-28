@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/google/go-jsonnet/ast"
-	"github.com/google/go-jsonnet/internal/parser"
-	"github.com/google/go-jsonnet/linter/internal/common"
+	"github.com/jgraeger/go-jsonnet/ast"
+	"github.com/jgraeger/go-jsonnet/internal/parser"
+	"github.com/jgraeger/go-jsonnet/linter/internal/common"
 )
 
 // Maximum number of array elements for which we track

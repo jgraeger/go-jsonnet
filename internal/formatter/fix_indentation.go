@@ -19,8 +19,8 @@ package formatter
 import (
 	"strings"
 
-	"github.com/google/go-jsonnet/ast"
-	"github.com/google/go-jsonnet/internal/pass"
+	"github.com/jgraeger/go-jsonnet/ast"
+	"github.com/jgraeger/go-jsonnet/internal/pass"
 )
 
 // FixIndentation is a formatter pass that changes the indentation of new line

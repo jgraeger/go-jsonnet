@@ -4,7 +4,7 @@ load(
     "gazelle",
 )
 
-# gazelle:prefix github.com/google/go-jsonnet
+# gazelle:prefix github.com/jgraeger/go-jsonnet
 gazelle(
     name = "gazelle",
 )
@@ -24,7 +24,7 @@ go_library(
         "vm.go",
         "yaml.go",
     ],
-    importpath = "github.com/google/go-jsonnet",
+    importpath = "github.com/jgraeger/go-jsonnet",
     visibility = ["//visibility:public"],
     deps = [
         "//ast:go_default_library",

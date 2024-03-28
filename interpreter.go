@@ -25,8 +25,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/google/go-jsonnet/ast"
-	"github.com/google/go-jsonnet/astgen"
+	"github.com/jgraeger/go-jsonnet/ast"
+	"github.com/jgraeger/go-jsonnet/astgen"
 )
 
 // TODO(sbarzowski) use it as a pointer in most places b/c it can sometimes be shared

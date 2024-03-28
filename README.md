@@ -2,8 +2,8 @@
 
 [![GoDoc Widget]][GoDoc] [![Travis Widget]][Travis] [![Coverage Status Widget]][Coverage Status]
 
-[GoDoc]: https://godoc.org/github.com/google/go-jsonnet
-[GoDoc Widget]: https://godoc.org/github.com/google/go-jsonnet?status.png
+[GoDoc]: https://godoc.org/github.com/jgraeger/go-jsonnet
+[GoDoc Widget]: https://godoc.org/github.com/jgraeger/go-jsonnet?status.png
 [Travis]: https://travis-ci.org/google/go-jsonnet
 [Travis Widget]: https://travis-ci.org/google/go-jsonnet.svg?branch=master
 [Coverage Status Widget]: https://coveralls.io/repos/github/google/go-jsonnet/badge.svg?branch=master
@@ -19,13 +19,13 @@ This code is known to work on Go 1.12 and above. We recommend always using the n
 # go >= 1.17
 # Using `go get` to install binaries is deprecated.
 # The version suffix is mandatory.
-go install github.com/google/go-jsonnet/cmd/jsonnet@latest
+go install github.com/jgraeger/go-jsonnet/cmd/jsonnet@latest
 
 # Or other tools in the 'cmd' directory
-go install github.com/google/go-jsonnet/cmd/jsonnet-lint@latest
+go install github.com/jgraeger/go-jsonnet/cmd/jsonnet-lint@latest
 
 # go < 1.17
-go get github.com/google/go-jsonnet/cmd/jsonnet
+go get github.com/jgraeger/go-jsonnet/cmd/jsonnet
 ```
 
 It's also available on Homebrew:
@@ -36,7 +36,7 @@ brew install go-jsonnet
 
 `jsonnetfmt` and `jsonnet-lint` are also available as [pre-commit](https://github.com/pre-commit/pre-commit) hooks. Example `.pre-commit-config.yaml`:
 ```yaml
-- repo: https://github.com/google/go-jsonnet
+- repo: https://github.com/jgraeger/go-jsonnet
   rev: # ref you want to point at, e.g. v0.17.0
   hooks:
     - id: jsonnet-format
@@ -52,7 +52,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/google/go-jsonnet"
+	"github.com/jgraeger/go-jsonnet"
 )
 
 func main() {

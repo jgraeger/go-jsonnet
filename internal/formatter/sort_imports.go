@@ -19,7 +19,7 @@ package formatter
 import (
 	"sort"
 
-	"github.com/google/go-jsonnet/ast"
+	"github.com/jgraeger/go-jsonnet/ast"
 )
 
 type importElem struct {

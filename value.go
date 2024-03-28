@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/google/go-jsonnet/ast"
+	"github.com/jgraeger/go-jsonnet/ast"
 )
 
 // value represents a concrete jsonnet value of a specific type.

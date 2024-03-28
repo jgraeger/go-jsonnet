@@ -4,7 +4,7 @@ import (
 	"math"
 	"strings"
 
-	"github.com/google/go-jsonnet/ast"
+	"github.com/jgraeger/go-jsonnet/ast"
 )
 
 // Technically on 64-bit system, if someone really tries, maybe they can

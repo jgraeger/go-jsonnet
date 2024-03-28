@@ -10,7 +10,7 @@ go_library(
         "location.go",
         "util.go",
     ],
-    importpath = "github.com/google/go-jsonnet/ast",
+    importpath = "github.com/jgraeger/go-jsonnet/ast",
     visibility = ["//visibility:public"],
 )
 
